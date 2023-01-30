@@ -1,0 +1,131 @@
+body {
+  /* background-image: url(https://www.drvo-wood-holz-legna.com/wp-content/uploads/2017/12/Drvo-Wood-Holz-Legna-pozadina.jpg); */
+  /* background-color: rgb(64, 65, 66); */
+  background: rgb(0, 56, 255);
+  background: linear-gradient(
+    266deg,
+    rgba(0, 56, 255, 1) 0%,
+    rgba(93, 66, 41, 1) 59%,
+    rgba(198, 117, 21, 1) 100%
+  );
+  color: rgb(197, 197, 197);
+  margin: 0px;
+}
+
+.naslov {
+  background-color: #ffffff42;
+  height: 200px;
+  /* text-align: right;  */
+  /* padding-top: 50px;  */
+  padding-right: 20px;
+  color: rgb(25, 69, 190);
+}
+
+.naslov img {
+  margin: 10px 0px 0px 10px;
+  display: inline-block;
+}
+
+/* .ime-i-slika { */
+/* display: inline-block; */
+/* height: 80px; */
+/* margin-left: 1200px; */
+
+/* .ime-i-slika img { */
+/* height: 80px; */
+/* display: inline-block; */
+
+.recni-ribolov {
+  text-decoration-color: aliceblue;
+  height: 500px;
+  width: 300px;
+  background: rgb(14, 55, 43);
+  background: linear-gradient(
+    45deg,
+    rgba(14, 55, 43, 1) 0%,
+    rgba(93, 66, 41, 1) 44%,
+    rgba(184, 120, 44, 1) 100%
+  );
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px #000000;
+  border: 4px white;
+  display: inline-block;
+  margin: 100px 50px;
+  margin-left: 400px;
+}
+.recni-ribolov img {
+  width: 300px;
+  margin-bottom: 0px;
+}
+.recni-ribolov:hover {
+  height: 550px;
+  width: 300px;
+  margin-top: 0px;
+  box-shadow: 4px 4px 16px #f8cd8b;
+}
+.recni-ribolov h2 {
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+.recni-ribolov h3 {
+  margin: 0px;
+  text-align: center;
+  padding: 0px 3px;
+}
+
+.recni-ribolov p {
+  padding-top: 0px;
+  text-align: justify;
+  padding: 10px;
+  text-indent: 25px;
+}
+
+.morski-ribolov {
+  height: 500px;
+  width: 300px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 17%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px #000000;
+  border: 4px white;
+  display: inline-block;
+  margin: 100px 50px;
+}
+.morski-ribolov img {
+  width: 300px;
+  height: 170px;
+  margin-bottom: 0px;
+}
+
+.morski-ribolov:hover {
+  height: 550px;
+  width: 300px;
+  margin-top: 0px;
+  box-shadow: 4px 4px 16px #8ae8ff;
+}
+
+.morski-ribolov h2 {
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+.morski-ribolov h3 {
+  margin: 0px;
+  text-align: center;
+  padding: 0px 3px;
+}
+
+.morski-ribolov p {
+  padding-top: 0px;
+  text-align: justify;
+  padding: 10px;
+  text-indent: 25px;
+}

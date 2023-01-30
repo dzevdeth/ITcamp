@@ -1,0 +1,62 @@
+.ribolov {
+  /* margin: 40px auto 0px; */
+  width: 400px;
+  height: 600px;
+  background-color: rgb(158, 158, 158);
+  border: 2px solid rgb(63, 99, 63);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 12px #0000007a;
+  display: inline-block;
+  margin: 20px 30px;
+  /* overflow-x: hidden; */
+}
+/* HTML ELEMENTI */
+/* 1.Blok level elementi */
+/* 1.1 div header section main footer */
+/* 1.2 p */
+/* 1.3 h1...h6 */
+/* 1.3 ul ol li */
+
+/* 2.Inline elementi */
+/* 2.1 span */
+/* 2.2 a  */
+/* 2.3 img */
+/* 2.4 button */
+/* 2.5 input */
+
+.ribolov img {
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.ribolov h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.ribolov h2 {
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.ribolov p {
+  text-align: justify;
+  text-indent: 25px;
+  text-align-last: right;
+  padding: 10px;
+}
+
+.ribolov:hover {
+  background-color: rgb(202, 198, 198);
+  /* height: 1000px; */
+}
+
+/* .ribolov img:hover {} */
+/* content: url(); */
+
+.ribolov:nth-of-type(2) {
+  /* visibility: hidden;  cuva se mesto na stranici*/
+  display: none;
+}
