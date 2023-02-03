@@ -87,6 +87,11 @@ h4 {
   overflow: hidden;
   display: inline-block;
 }
+
+.icons {
+  color: #00fdbe;
+  text-align: center;
+}
 .ITcamp h3 {
   text-shadow: 5px 5px 10px rgb(0, 0, 0);
   padding: 0px 0px 0px;
