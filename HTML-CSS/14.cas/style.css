@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgb(126, 89, 89);
+}
+
+.parent {
+  background-color: rgb(165, 142, 142);
+  width: 600px;
+  height: 400px;
+  margin: 40px auto;
+}
+.child {
+  background-color: aliceblue;
+}
+/* U CSSu imamo apsolutne i relativne velicine:
+  1.Absolute Lengths 
+
+  -cm
+  -mm
+  -in
+  -px
+  -pt - points /1pt=1/79px/
+  -pc - 1pc=12pt
+
+
+  2.Relativne velicine
+
+  -em -je relativna u odnosu na font-size njenog parenta
+  -rem -ona je ralativna u odnosu na root element /body/
+
+  -vw -viewport-relativan za 1% u odnosu na sirinu ekrana
+  -vh -viewport-relativan za 1% u odnosu na visinu ekrana
+  -vmin -relativan za 1% u odnosu na manju dimenziju
+  -vmax -relativan za 1% u odnosu na vecu dimenziju
+  -% -relativan za 1% u odnosu na svog parenta
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  */
