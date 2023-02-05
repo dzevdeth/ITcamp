@@ -83,19 +83,24 @@ h4 {
   box-shadow: 5px 5px 10px rgb(0, 253, 190);
   /* text-shadow: 5px 5px 10px rgb(0, 0, 0); */
   text-align: center;
-  margin: 40px 20px 0px 80px;
+  margin: 20px 20px 0px 80px;
   overflow: hidden;
   display: inline-block;
 }
-
 .icons {
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 40px;
   color: #00fdbe;
-  text-align: center;
+  width: 15px;
+  height: 15px;
 }
+
 .ITcamp h3 {
   text-shadow: 5px 5px 10px rgb(0, 0, 0);
   padding: 0px 0px 0px;
-  margin: 15px 00px 0px;
+  margin: 0px 00px 0px;
   font-size: 45px;
 }
 .ITcamp h6 {
@@ -132,6 +137,14 @@ h4 {
   overflow: hidden;
   display: inline-block;
 }
+
+.paleta {
+  color: #00fdbe;
+  margin: 10px 100px 45px;
+  height: 15px;
+  width: 15px;
+}
+
 .graficki-dizajn h3 {
   text-shadow: 5px 5px 10px rgb(0, 0, 0);
   padding: 0px 0px 0px;
@@ -171,6 +184,13 @@ h4 {
   overflow: hidden;
   display: inline-block;
 }
+
+.w {
+  color: #00fdbe;
+  margin: 10px 100px 45px;
+  height: 15px;
+  width: 15px;
+}
 .wordpress h3 {
   text-shadow: 5px 5px 10px rgb(0, 0, 0);
   padding: 0px 0px 0px;
@@ -209,6 +229,12 @@ h4 {
   margin: 40px 20px 0px;
   overflow: hidden;
   display: inline-block;
+}
+.pay {
+  color: #00fdbe;
+  margin: 10px 100px 45px;
+  height: 15px;
+  width: 15px;
 }
 .payton h3 {
   text-shadow: 5px 5px 10px rgb(0, 0, 0);
