@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 70%;
+  height: 500px;
+  float: left;
+  margin-right: 10px;
+}
+
+.box1 {
+  width: 500px;
+  height: 600px;
+  background-color: #80ff00a4;
+  float: left;
+}
+
+.box2 {
+  width: 700px;
+  height: 350px;
+  background-color: chocolate;
+  float: right;
+}
+
+p {
+  clear: both;
+  background-color: grey;
+}
