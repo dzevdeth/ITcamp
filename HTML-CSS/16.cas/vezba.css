@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.glavni {
+  background-color: darkgreen;
+  margin-left: 0px;
+  width: 600px;
+  height: 600px;
+}
+
+.prvi {
+  background-color: rgb(94, 72, 0);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.drugi {
+  background-color: rgb(85, 85, 85);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+.treci {
+  background-color: rgb(197, 176, 107);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}

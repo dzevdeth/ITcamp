@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(82, 16, 16);
+}
+
+header {
+  background-color: rgba(31, 24, 24, 0.582);
+  height: 100px;
+}
+.ikonica {
+  color: rgb(82, 16, 16);
+  width: 600px;
+  height: 600px;
+}

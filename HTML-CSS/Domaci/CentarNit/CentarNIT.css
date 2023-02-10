@@ -14,6 +14,7 @@ header img {
 header {
   background: rgba(13, 52, 75, 0);
   box-shadow: 3px 3px 20px rgb(0, 253, 190);
+  position: relative;
 }
 
 .home {
@@ -262,4 +263,10 @@ h4 {
   width: 300px;
   height: 300px;
   border-radius: 15px;
+}
+
+.btns {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
 }

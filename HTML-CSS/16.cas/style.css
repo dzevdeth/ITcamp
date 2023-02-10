@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: brown;
+  margin: 40px auto 0px;
+  position: relative;
+}
+
+.parent h1 {
+  font-size: 50px;
+}
+
+.child-1 {
+  background-color: rgb(240, 10, 10);
+  height: 130px;
+
+  /* position: relative;  dobijamo 4 nova css svojstva  */
+  /* position: relative; */
+  /* top: 40px; */
+  /* left: 40px; */
+  position: absolute;
+  top: 20px;
+  left: 500px;
+}
+
+.child-2 {
+  background-color: rgb(49, 47, 47);
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+}
+
+.child-3 {
+  background-color: rgb(34, 31, 31);
+  height: 130px;
+  position: sticky;
+  top: 0px;
+}
+
+.child-4 {
+  background-color: rgb(131, 131, 131);
+  height: 130px;
+}
