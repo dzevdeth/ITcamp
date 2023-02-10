@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #141414;
+  position: relative;
+}
+.header img {
+  width: 5vw;
+  height: 10vh;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.links {
+  float: right;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+a {
+  font-size: 22px;
+  margin: 10px;
+  background-color: rgb(115, 255, 0);
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(253, 101, 0);
+}
+
+a:hover {
+  background-color: rgb(60, 82, 42);
+  color: aliceblue;
+}
+
+a:visited 
+  /* color: rgb(20, 220, 203); */
+
+a:active {
+  color: blueviolet;
+}
+
+p {
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+
+.iconica {
+  background-color: aqua;
+  font-size: 500px;
+  position: absolute;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+  cursor: auto;
+}
