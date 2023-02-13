@@ -1,65 +1,44 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
   background: rgb(23, 23, 23);
 
-  margin: 0px;
   color: rgb(27, 27, 27);
   font-size: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-header img {
-  height: 100px;
-  width: 140px;
-  padding: 30px 790px 0px 20px;
+.header {
+  background: rgb(23, 23, 23);
+  box-shadow: 3px 2px 8px #00fdbe;
+
+  width: 100vw;
+  height: 15vh;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
-header {
-  background: rgba(13, 52, 75, 0);
-  box-shadow: 3px 3px 20px rgb(0, 253, 190);
+
+.header img {
+  height: 10vh;
+  width: 5vw;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 60px;
+}
+
+a {
+  float: right;
   position: relative;
-}
-
-.home {
-  border-radius: 5px;
-  border-color: rgb(0, 253, 190);
-  width: 100px;
-  height: 40px;
-  background-color: rgb(37, 37, 37);
-  /* box-shadow: unset 3px 3px 7px rgb(0, 0, 0); */
-  box-shadow: inset 3px 3px 10px rgb(0, 253, 190);
-  text-shadow: 1px 1px 2px rgb(0, 253, 190);
-}
-.home:hover {
-  box-shadow: inset 3px 3px 10px black;
-  text-shadow: 1px 1px 2px rgb(27, 27, 27);
-}
-
-.contant {
-  border-radius: 5px;
-  border-color: rgb(0, 253, 190);
-  width: 100px;
-  height: 40px;
-  background-color: rgb(37, 37, 37);
-  box-shadow: unset 3px 3px 7px rgb(0, 0, 0);
-  box-shadow: inset 3px 3px 10px rgb(0, 253, 190);
-  text-shadow: 1px 1px 2px rgb(0, 253, 190);
-}
-.contant:hover {
-  box-shadow: inset 3px 3px 10px black;
-  text-shadow: 1px 1px 2px rgb(27, 27, 27);
-}
-
-.more {
-  border-radius: 5px;
-  border-color: rgb(0, 253, 190);
-  width: 100px;
-  height: 40px;
-  background-color: rgb(37, 37, 37);
-  box-shadow: unset 3px 3px 7px rgb(0, 0, 0);
-  box-shadow: inset 3px 3px 10px rgb(0, 253, 190);
-  text-shadow: 1px 1px 2px rgb(0, 253, 190);
-}
-.more:hover {
-  box-shadow: inset 3px 3px 10px black;
-  text-shadow: 1px 1px 2px rgb(27, 27, 27);
+  top: 50px;
+  right: 40px;
+  color: #00fdbe;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  border: 2px white;
 }
 h1 {
   text-align: center;
@@ -263,10 +242,4 @@ h4 {
   width: 300px;
   height: 300px;
   border-radius: 15px;
-}
-
-.btns {
-  position: absolute;
-  bottom: 40px;
-  right: 30px;
 }

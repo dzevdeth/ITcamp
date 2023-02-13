@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+.header {
+  background: rgba(23, 23, 23, 0.829);
+  box-shadow: 3px 2px 8px #00fdbe;
+
+  width: 100vw;
+  height: 15vh;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+}
+
+.header img {
+  height: 10vh;
+  width: 5vw;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 60px;
+}
+a {
+  float: right;
+  position: relative;
+  top: 50px;
+  right: 40px;
+  color: #00fdbe;
+  padding: 10px;
+  background-color: transparent;
+  margin: 10px;
+  border: 2px white;
+}
+.levi {
+  width: 17vw;
+  height: 100vh;
+
+  background-color: rgb(14, 129, 104);
+  border-radius: 20px;
+  position: absolute;
+  left: 25px;
+  top: 120px;
+}
+.user {
+  color: rgb(23, 23, 23);
+  position: relative;
+  top: 10px;
+  left: 18px;
+  background-color: #00bd8e;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 200px;
+  letter-spacing: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.naslov {
+  position: absolute;
+  right: 150px;
+  top: 120px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  color: rgb(43, 43, 43);
+  text-shadow: 1px 1px 2px #00bd8e8c;
+}
+
+.glavni {
+  width: 75vw;
+  height: 100vh;
+  background-color: rgba(29, 29, 29, 0.664);
+  border-radius: 25px;
+  position: relative;
+  left: 22vw;
+  top: 100px;
+}
+
+.lupa {
+  color: rgb(43, 43, 43);
+  width: 38px;
+  height: 100px;
+  display: inline-block;
+}
+.pretrazivac {
+  background-color: #00b988c5;
+  box-shadow: 3px 3px 10px #000000;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  text-align: left;
+  padding: 10px;
+  z-index: 10;
+  border: none;
+}
+
+.searchbar {
+  /* visibility: hidden; */
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  background: transparent;
+  border: none;
+}
+.searchbar:hover {
+  background: transparent;
+  border: none;
+}
+.pretrazivac:hover {
+  background-color: #00b98818;
+  height: 40px;
+  width: 900px;
+}
+.lupa:hover {
+  color: #00b988c5;
+}
+
+.prvo {
+  position: absolute;
+  top: 150px;
+  color: #00fdbe9a;
+  padding: 20px;
+  text-indent: 20px;
+}
+
+.slika img {
+  width: 75vw;
+  height: 500px;
+  border-radius: 25px;
+  filter: opacity(10%);
+}
