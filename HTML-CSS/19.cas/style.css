@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(104, 155, 117);
+  display: flex;
+  /* flex-direction: row; difoltna vrednost */
+  /* flex-direction: column; */
+
+  /* Horizontalno poravnanje: */
+  /* justify-content: flex-start; difoltna vrednost horizontalnog poravnanja */
+  /* justify-content: center;  */
+  /* justify-content: flex-end;  */
+  /* justify-content: space-between; razmak na pocetku sredini i kraju */
+  /* justify-content: space-around; -//- samo jos daje razmak na pocetkuu i kraju */
+  /* justify-content: space-evenly; -//- jednak razmak izmedju pocetka, elemenata i kraja */
+  justify-content: space-evenly;
+
+  /* Vertikalno poravnanje */
+  /* align-items: flex-start; difoltno stanje na vrhu kontejnera */
+  /* align-items: center;  */
+  /* align-items: flex-end; na dnu */
+  align-items: center;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+}
+
+.prvi {
+  background-color: rgb(112, 112, 102);
+  /* align-self: flex-start; samo jedan element iz perenta da se pozicionira */
+  align-self: flex-start;
+}
+
+.drugi {
+  background-color: rgb(255, 252, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.treci {
+  background-color: rgb(221, 221, 194);
+  align-self: flex-end;
+}
+
+/* .drugi p {
+  align-self: center;
+  justify-content: center;
+} */
