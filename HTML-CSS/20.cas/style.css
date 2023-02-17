@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(104, 155, 117);
+  display: flex;
+  justify-items: flex-start;
+  justify-items: flex-start;
+  /* flex-wrap: ;Po difoltu svi staju u jednom redu i suzava */
+  flex-wrap: wrap;
+  /* gap: 15px; razmak izmedju svkakog emelenta */
+  gap: 15px;
+}
+
+.box {
+  width: 150px;
+  /* width: 250px; */
+  height: 120px;
+}
+
+.prvi {
+  background-color: rgb(112, 112, 102);
+  /* flex-grow: 2; */
+  /* flex-shrink: 3; U vezi suzavanja ekrana */
+
+  /* Order svojstvo nam sluzi za redjanje elemenata na stranici po nasoj zelji. MENJAMO HTML POREDATK ELEMENTA */
+  order: 2;
+}
+
+.drugi {
+  background-color: rgb(255, 252, 70);
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 3;
+}
+.treci {
+  background-color: rgb(221, 221, 194);
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 1;
+}

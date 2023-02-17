@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+.glavni {
+  margin-top: 150px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+.glavni img {
+  height: 300px;
+  justify-items: flex-start;
+  flex-grow: 1;
+  margin-left: 100px;
+}
+
+.desni {
+  width: 400px;
+  flex-grow: 1;
+  margin-right: 100px;
+}
+
+h1 {
+  padding-bottom: 40px;
+}
+p {
+  padding-bottom: 60px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(224, 224, 224);
+}
