@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 800px;
+  height: 700px;
+
+  background-color: wheat;
+  display: grid;
+
+  grid-template-columns: repeat(3, 200px);
+
+  grid-auto-rows: minmax(180px, auto);
+
+  grid-gap: 20px;
+  /* Horizontalno poravnanje */
+  justify-content: space-around;
+  /* Vertikalno poravnanje*/
+  align-content: end;
+  align-content: space-between;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.jedan {
+  background-color: rgb(221, 221, 255);
+}
+.dva {
+  background-color: rgb(60, 255, 0);
+}
+.tri {
+  background-color: rgb(25, 25, 36);
+}
+.cetiri {
+  background-color: rgb(255, 89, 0);
+}
+.pet {
+  background-color: chocolate;
+}
+.sest {
+  background-color: rgb(210, 30, 156);
+}
+.sedam {
+  background-color: rgb(120, 226, 255);
+}
