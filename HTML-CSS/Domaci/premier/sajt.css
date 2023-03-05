@@ -11,7 +11,7 @@ body {
 .site {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8vh 10vh 8vh 300px 350px;
   /* grid-auto-rows: 200px; */
   grid-gap: 5px;
@@ -140,18 +140,17 @@ button {
 }
 .card {
   background-color: red;
-  overflow: none;
 }
-.card:hover {
+/* .card:hover {
   transform: scale(1.5);
-}
+} */
 
 .slika-kartice {
   width: 250px;
   height: 170px;
 
   right: 10px;
-  transition: transform 4s;
+  /* transition: transform 4s; */
 }
 
 .afcb {
@@ -171,7 +170,7 @@ h3 {
   bottom: 50px;
   color: #ffffff;
 }
-p {
+.paragraf {
   text-align: center;
   position: relative;
   bottom: 40px;
