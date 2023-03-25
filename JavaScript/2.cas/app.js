@@ -63,3 +63,5 @@ console.log(c);
 // 4.Koriscenjem nicega.
 d = 5;
 console.log(5);
+
+//Varijable (promenljive) u JavaScriptu predstavlja kontejnere za skladistenje vrednosti.
