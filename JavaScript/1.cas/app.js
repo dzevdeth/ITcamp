@@ -70,3 +70,18 @@ obj = {
 };
 console.log(obj);
 console.log(typeof obj);
+
+//3.Set - Struktura podataka za skladistenje koja ne dozvoljava duplikate.Slicna je nizu, a sintaksa za pravljenje seta je:
+
+set = new Set(["Asija", "Melida", "Dino", 19, 31, 25]); //Svako novo pojavljivanje elemenate u setu se nece primeniti
+console.log(set);
+
+//4.Map - Struktura podataka za skladistenje koja ne dozvoljava duplikate.Slicna je objektu, a sintaksa za pravljenje mape je:
+
+map = new Map([
+  ["banane", 160],
+  ["jagoda", 240],
+  ["kruska", 140],
+  ["ananas", 189],
+]);
+console.log(map);
