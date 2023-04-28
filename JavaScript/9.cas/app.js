@@ -34,33 +34,50 @@
 // }
 
 //While petlja se takodje koristi za interakciju kroz neki objekat i izvrsavanje odredjenog koda
-let i = 1;
-while (i <= 5) {
-  console.log(i);
-  i++;
-}
+// let i = 1;
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
 
 //do while petlja se koristi za interakciju kroz neki objekat, s tim sto u ovakvoj petlji imamo prvo izvrsenje koda pa tek onda ispitavanje uslova.
-let k = 5;
-do {
-  console.log(k);
-  k++;
-} while (k < 10);
+// let k = 5;
+// do {
+//   console.log(k);
+//   k++;
+// } while (k < 10);
 
 // Traziti od korsnika da unese neki broj
 // Na osnovu te vrednosti izvrsiti ispis kvadrata brojeva od 1 do tog unetog broja:
 
-let broj1 = +prompt("Unesite neki broj:");
+// let broj1 = +prompt("Unesite neki broj:");
 
-let broj2 = 1;
-while (broj2 <= broj1) {
-  console.log(broj2 ** 2);
-  broj2++;
-}
+// let broj2 = 1;
+// while (broj2 <= broj1) {
+//   console.log(broj2 ** 2);
+//   broj2++;
+// }
 
 //Traziti unos brojeva od korisnika sve dok ne unese nulu:
 
-let vrednost = 1; //Sve sem 0
-while (vrednost !== 0) {
-  vrednost = +prompt("Unesite neku vrednost:");
+// let vrednost = 1; //Sve sem 0
+// while (vrednost !== 0) {
+//   vrednost = +prompt("Unesite neku vrednost:");
+// }
+
+// korisnik unosi dva broja na osnovu toga koji je broj manji vrsi se interakcija od nega do najveceg
+
+let broj1 = +prompt("Unesite prvi broj");
+let broj2 = +prompt("Unesite drugi broj");
+
+if (broj1 < broj2) {
+  while (broj1 <= broj2) {
+    console.log(broj1);
+    broj1++;
+  }
+} else if (broj2 < broj1) {
+  while (broj2 < broj1) {
+    console.log(broj2);
+    broj2++;
+  }
 }
