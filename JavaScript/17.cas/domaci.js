@@ -23,3 +23,17 @@ function palindrom(a) {
   return true;
 }
 console.log(palindrom("radar"));
+
+function isPalindrom(string) {
+  let obrnutistring = "";
+  for (let i = string.length - 1; i >= 0; i--) {
+    obrnutistring += string[i];
+  }
+  if (string === obrnutistring) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isPalindrom("radar"));
+console.log(isPalindrom("hello"));
